@@ -1,0 +1,15 @@
+name: gasp_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  # core numerics
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  # notebook interface
+  - jupyterlab       # or replace with 'notebook' if preferred
+  - ipykernel        # so the env is selectable in Jupyter
+  # quality-of-life
+  - pip              # handy for any pip-only extras
